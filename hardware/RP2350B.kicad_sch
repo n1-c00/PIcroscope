@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "3efdac08-cdb4-4f35-988e-bc6b01cdf80e")
 	(paper "A4")
+	(title_block
+		(title "PIcroscope - A RP2350 based Microscope")
+		(date "2025-05-13")
+		(rev "V0.2")
+		(company "Nico Zehetner")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
@@ -3689,16 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 60.96) (xy 113.03 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e250150-c78b-43f6-91ac-f85b71cbf14d")
-	)
-	(wire
-		(pts
 			(xy 175.26 83.82) (xy 175.26 90.17)
 		)
 		(stroke
@@ -3919,13 +3915,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 63.5) (xy 120.65 63.5)
+			(xy 113.03 60.96) (xy 191.77 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e73083e-ca74-4d21-9698-69b1a836f68a")
+		(uuid "5e4719cd-f009-42b0-8975-9d7d2b878f8c")
 	)
 	(wire
 		(pts
@@ -4076,6 +4072,16 @@
 			(type default)
 		)
 		(uuid "7d727058-d27b-4daa-89e7-f63e223f54ce")
+	)
+	(wire
+		(pts
+			(xy 120.65 63.5) (xy 187.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e52e1cf-395f-4340-934f-b6e5621a77e6")
 	)
 	(wire
 		(pts
@@ -4609,7 +4615,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 96.52) (xy 149.86 96.52)
+			(xy 149.86 96.52) (xy 160.02 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4893,8 +4899,8 @@
 		)
 		(uuid "6622b70d-c599-45e5-999e-b120fcbda8fc")
 	)
-	(label "Yout"
-		(at 160.02 96.52 180)
+	(label "XR"
+		(at 158.75 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4966,7 +4972,7 @@
 		(uuid "987ac6dc-6a93-43c0-91ad-429171602e91")
 	)
 	(label "SPI_SCLK"
-		(at 132.08 63.5 180)
+		(at 133.35 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4979,7 +4985,7 @@
 		(uuid "9d63ee19-7599-42b2-a880-318ed2f8a23c")
 	)
 	(label "SPI_CS"
-		(at 132.08 60.96 180)
+		(at 130.81 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6415,21 +6421,21 @@
 		(fields_autoplaced yes)
 		(uuid "3e4fa47b-e098-496b-9190-e155ff4e7d5f")
 		(property "Reference" "R2"
-			(at 198.12 53.3399 0)
+			(at 203.2 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 198.12 55.8799 0)
+		(property "Value" "10k"
+			(at 203.2 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
